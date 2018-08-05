@@ -3,7 +3,7 @@ var router = express.Router();
 
 router.get('/', (req, res)=>{
     console.log("request /");
-    res.json({"response":true});
+    res.json({"App":"App TD", "Company": "The Dresser"});
 });
 
 
